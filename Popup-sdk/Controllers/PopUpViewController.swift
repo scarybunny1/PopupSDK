@@ -7,6 +7,20 @@
 
 import UIKit
 
+/**
+ `PopUpViewController` is a custom view controller class that presents a pop-up view with customizable alignment.
+
+ This view controller is designed to present a pop-up view over the current view controller with various alignment options, including top, center, and bottom.
+
+ - Use `init(popUpAlignment:)` initializer to create an instance of `PopUpViewController` with the desired alignment.
+
+ Usage:
+ ```swift
+ // Create an instance of PopUpViewController with center alignment
+ let popUpVC = PopUpViewController(popUpAlignment: .center)
+ // Present the pop-up view controller modally
+ present(popUpVC, animated: false, completion: nil)
+ **/
 public class PopUpViewController: UIViewController {
     
     //MARK:  Class Properties
